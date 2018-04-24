@@ -19,7 +19,7 @@ One of the core flows that we want to test is decentralized research collaborati
 
 ![Alt text](minimal-mvp.png "DApp")
 
-###Topic Creation
+### Topic Creation
 To start the research initiative, a Creator launches a new ResearchTopic. She needs to include:
 
 -   An Arbiter that will mediate the topic. The Arbiter’s address could easily be a multisig with multiple arbiters behind it. The Creator is incentivized to pick trusted and knowledgeable Arbiters in order to gather research talent and secure funds.
@@ -29,13 +29,13 @@ To start the research initiative, a Creator launches a new ResearchTopic. She ne
 -   Percentage of rewards that will go to the Arbiter.
 -   Percentage of rewards that the Creator will keep
 
-###Contributing
+### Contributing
 Once the `ResearchTopic` is live, Researchers can start sending contributions. A contribution would be the hash of an IPFS file that contains the actual text.
 
-###Donating
+### Donating
 Donors can send RES to  the `ResearchTopic` at any point before it’s closed. Once an Arbiter closes the topic and is in the process of distributing credit, no more donations are accepted.
 
-###Closing a Topic
+### Closing a Topic
 The Arbiter can call the research finished and close the topic. The Arbiter should rank each contribution as:
 
 -   Unhelpful
@@ -45,5 +45,5 @@ The Arbiter can call the research finished and close the topic. The Arbiter shou
 
 The percentage of funds reserved for Researchers will be distributed between all contributions with Key contributions earning more than Medium, those more than Small and Unhelpful contributions not earning any rewards.
 
-###Publishing
+### Publishing
 The last step in the research process is publishing a paper that summarizes or communicates the findings. Any Editor can submit a paper proposal, If accepted by the Arbiter, the Editor will receive the reward, the paper will be linked with the topic, and the topic will be finalized. At this point the final percentage, reserved for the Creator will also be unlocked for withdrawal.
